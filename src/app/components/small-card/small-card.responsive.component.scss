@@ -1,0 +1,25 @@
+@media screen and (max-width: 1200px){
+  .container__small-card{
+    width: 500px;
+  }
+
+  .small-card__picture{
+    > img {
+      width: 150px;
+      height: 80px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container__small-card{
+    width: 370px;
+  }
+
+  .small-card__title{  
+    > h1 {
+      font-size: 1rem;
+    }
+  }
+  
+}

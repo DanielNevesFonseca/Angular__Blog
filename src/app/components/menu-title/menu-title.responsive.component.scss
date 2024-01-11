@@ -1,1 +1,16 @@
+@media screen and (max-width: 992px) {
+  .container__menu-title{
+    > h1 {
+      font-size: 3rem;
+    }
+  }
+}
 
+
+@media screen and (max-width: 600px) {
+  .container__menu-title{
+    > h1 {
+      font-size: 2rem;
+    }
+  }
+}

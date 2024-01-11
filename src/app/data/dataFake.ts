@@ -8,12 +8,10 @@ export const dataFake = [
   },
   {
     id: 2,
-    photo:
-      'https://cinepop.com.br/wp-content/uploads/2021/05/venom2cartaz.jpg',
-    title:
-      'Venom 3 - A Saga continua',
+    photo: 'https://cinepop.com.br/wp-content/uploads/2021/05/venom2cartaz.jpg',
+    title: 'Venom 3 - A Saga continua',
     description:
-      'Venom será um excelente filme para assistir com os amigos.',
+      'Após os eventos intensos de "Venom: Let There Be Carnage", Eddie Brock e Venom estão tentando se adaptar a uma vida cotidiana em San Francisco. No entanto, a cidade se torna palco de estranhos acontecimentos quando uma misteriosa organização secreta emerge das sombras. Eles têm a capacidade de controlar simbiontes de maneiras perigosas e ameaçam mergulhar o mundo no caos. ',
   },
   {
     id: 3,

@@ -5,7 +5,10 @@ import { dataFake } from 'src/app/data/dataFake';
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
-  styleUrls: ['./content.component.scss'],
+  styleUrls: [
+    './content.component.scss',
+    './content.responsive.component.scss',
+  ],
 })
 export class ContentComponent implements OnInit {
   photoCover: string = '';
@@ -27,7 +30,5 @@ export class ContentComponent implements OnInit {
     this.contentTitle = result.title;
     this.contentDescription = result.description;
     this.photoCover = result.photo;
-
-    console.log(result);
   }
 }

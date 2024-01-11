@@ -1,0 +1,39 @@
+@media screen and (max-width: 992px){
+  .container__big-card{
+    width: 500px;
+    flex-direction: row;
+    gap: 20px;
+    border-bottom: 3px solid grey;
+    padding-bottom: 15px;
+  }
+
+  .big-card__picture{
+    > img {
+      width: 150px;
+      height: 80px;
+    }
+  }
+
+  .big-card__description{
+    display: none;
+  }
+  
+  .big-card__title{
+    align-self: center;
+    h1 {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container__big-card{
+    width: 370px;
+  }
+
+  .big-card__title {
+    h1 {
+      font-size: 1rem;
+    }
+  }
+}
