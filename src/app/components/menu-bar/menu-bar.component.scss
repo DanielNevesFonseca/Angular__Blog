@@ -1,0 +1,22 @@
+.container__menu-bar{
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    li {
+      list-style: none;
+      img{
+        width: 26px;
+      }
+    }
+
+    span{
+
+    }
+  }
+}
